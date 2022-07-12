@@ -1,0 +1,38 @@
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 9px;
+}
+
+.center-transform {
+    left: -50%;
+    top: -50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    color: #78777a;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 500;
+    color: #78777a;
+}
