@@ -1,0 +1,211 @@
+@media (min-width:900px) and (max-width:2000px) {
+    .nav-footer,
+    .close {
+        display: none;
+    }
+}
+
+@media (min-width:600px) and (max-width:900px) {
+    .main-container {
+        padding: 0px 4%;
+        max-width: 900px;
+        height: auto;
+    }
+    .navigation {
+        padding: 0px 4%;
+    }
+    .menu-box {
+        display: block;
+        position: absolute;
+        right: 10px;
+    }
+    .lets-chat {
+        display: none;
+    }
+    nav ul {
+        position: absolute;
+        top: 0;
+        right: -250px;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#05bc90 60%, #90f8b9);
+        width: 250px;
+        padding: 20px 10px;
+        height: 100vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 60%;
+        transition: all 0.4s;
+        padding-top: 4%;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+    nav ul li {
+        padding: 10px;
+        margin: 10px;
+    }
+    .nav-footer .social-icons {
+        background-color: #fff;
+        padding: 4px;
+        margin: 2px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 100px;
+    }
+    .close {
+        color: #fff;
+        font-size: 45px;
+        margin-left: 120px;
+        display: block;
+    }
+    br {
+        display: none;
+    }
+    .main-container .container {
+        flex-basis: 100%;
+    }
+    .main-container .text-container {
+        order: 2;
+    }
+    .main-container .image-container {
+        padding-top: 70px;
+        order: 1;
+    }
+    .service-container {
+        flex-basis: 20%;
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    }
+    .main-content-box {
+        padding: 10px 7%;
+    }
+    .small-container {
+        flex-basis: 100%;
+    }
+    #Skill {
+        margin-bottom: -4rem;
+    }
+    .inner-details {
+        width: 100%;
+    }
+    .contact {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+/*---------------- MEDIA QUERY FOR MOBILE SCREEN --------------- */
+
+@media only screen and (max-width:600px) {
+    .main-content-box {
+        padding: 0px 4%;
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .lets-chat {
+        display: none;
+    }
+    .menu-box {
+        display: block;
+        cursor: pointer;
+        position: absolute;
+        right: 15px;
+    }
+    .logo-box {
+        margin-left: 10px;
+    }
+    .main-container .container {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .main-container {
+        padding: 10px 4%;
+    }
+    .main-container .text-container {
+        order: 2;
+        padding-top: 60px;
+    }
+    .main-container .image-container {
+        order: 1;
+        padding-top: 50px;
+    }
+    .navigation {
+        padding: 3px 5% 3px 3%;
+    }
+    nav ul {
+        position: absolute;
+        top: 0;
+        right: -250px;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(#05bc90 60%, #90f8b9);
+        width: 250px;
+        padding: 20px 10px;
+        height: 100vh;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 50%;
+        padding-top: 10%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.4s;
+    }
+    .nav-footer .social-icons {
+        background-color: #fff;
+        padding: 4px;
+        margin: 2px;
+        border-radius: 3px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+    }
+    .close {
+        color: #fff;
+        font-size: 37px;
+        margin-left: 120px;
+        display: block;
+    }
+    nav ul li a {
+        color: #fff;
+    }
+    .moto {
+        display: none;
+    }
+    .button-section {
+        position: absolute;
+        top: 48%;
+        left: 12%;
+    }
+    .small-container {
+        flex-basis: 100%;
+    }
+    .small-container .about-image {
+        order: 2;
+    }
+    .small-container .about-text {
+        order: 1;
+    }
+    .contact p {
+        font-size: 22px;
+        padding: 10px 0px;
+    }
+    .contact span {
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 600;
+    }
+    nav.nav {
+        display: none;
+    }
+    .inner-details {
+        width: 100%;
+    }
+    .service-container {
+        box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.2);
+    }
+    .contact {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+    #Skill {
+        margin-bottom: -6rem;
+    }
+}
