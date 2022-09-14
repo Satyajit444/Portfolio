@@ -2,7 +2,7 @@ const menuToggle = document.querySelector(".menu-box")
 const close = document.querySelector(".close")
 const sideBar = document.querySelector(".sidebar")
 const body = document.querySelector(".contents-box")
-const list = document.querySelectorAll("li")
+    // const list = document.querySelectorAll("li")
 
 menuToggle.onclick = () => {
     sideBar.style.right = "0px"
@@ -14,17 +14,20 @@ close.onclick = () => {
 
 }
 body.onclick = () => {
-    sideBar.style.right = "-250px"
-}
-list.onclick = () => {
-    sideBar.classList.toggle(".nav")
+        sideBar.style.right = "-250px"
+    }
+    // list.onclick = () => {
+    //     sideBar.classList.toggle(".nav")
 
-}
+// }
+
+
 
 // ---------------[ Form Validation ]
 
+
 const userName = document.querySelector("#user")
-const password = document.querySelector("#password")
+const email = document.querySelector("#mail")
 const textBox = document.querySelector('#textbox')
 const reset = document.querySelector('.reset')
 let flag = 1;
@@ -45,7 +48,7 @@ function validateForm() {
         flag = 0;
 
 
-    } else if (password.value == "") {
+    } else if (email.value == "") {
 
         document.getElementById('userError').innerHTML = "Enter the email.";
 
